@@ -76,8 +76,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.office365.com'; // Servidor SMTP
         $mail->SMTPAuth = true;
-        $mail->Username = 'eventosxphp@outlook.com'; // Correo electrónico
-        $mail->Password = 'AlvaroMolina1234'; // Contraseña
+        $mail->Username = 'xxx@outlook.com'; // Correo electrónico
+        $mail->Password = 'xxx'; // Contraseña
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587; // Puerto SMTP
 
@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->isHTML(true);
         $mail->Subject = 'Confirmación de Compra';
-        $mail->Body = '<p>Adjunto encontrarás el PDF con tus entradas</p>';
+        $mail->Body = '<p>Adjunto encontrar&aacute;s el PDF con tus entradas</p>';
 
         // Adjuntar el PDF
         $mail->addAttachment($pdfFilePath);
