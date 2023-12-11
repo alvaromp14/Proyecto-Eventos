@@ -76,8 +76,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.office365.com'; // Servidor SMTP
         $mail->SMTPAuth = true;
-        $mail->Username = 'xxx@outlook.com'; // Correo electrónico
-        $mail->Password = 'xxx'; // Contraseña
+        $mail->Username = 'eventosxphp@outlook.com'; // Correo electrónico
+        $mail->Password = 'AlvaroMolina1234'; // Contraseña
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587; // Puerto SMTP
 
