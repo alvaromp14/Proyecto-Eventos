@@ -1,0 +1,24 @@
+/proyecto
+├── /controlador
+│    └── cont_form_compra.php
+├── /css
+│    └── styles.css
+├── /dao
+│    └── conexionBD.php
+├── /img
+│    └── (Imagenes usadas para las páginas web)
+├── /modelo
+│    └── evento.php
+├── /librerias
+│   ├── fpdf
+│   ├── PHPMailer
+│   └── phpqrcode
+├── /pdf
+│   └── (PDFs generados)
+├── /qr
+│   └── (QRs generados)
+└── /vista
+    ├── carrito.php
+    ├── confirmacion.php
+    ├── form_compra.php
+    └── index.php
